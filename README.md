@@ -3,13 +3,13 @@
 1. What have you learned recently about iOS development? How did you learn it? Has it changed your approach to building apps?
 
 * I have brushed up fundamental iOS development concepts about how iOS apps should be built including MVC design pattern. 
-* I learned it from online courses, books, and developer documentation. While online courses are good to catch up on up-to-date information quickly, books are better to get in-depth knowledge. If developer documentation is well organized, the documentation is the best resource to learn about specific technical skills. 
+* I learned it from online courses, books, and developer documentation. Based on my learning experience to master iOS development, I found out that online courses are good to catch up on up-to-date information quickly, books are better to get in-depth knowledge. If developer documentation is well organized, the documentation would be the best resource to learn about specific technical skills.
 * With a clear understanding of the architecture, I start with overall app structure first while considering new features with functional and detailed technical requirements. As a result, I am able to prevent myself from making unnecessary mistakes.
 
 2. Can you talk about a framework that you've used recently (Apple or third-party)? What did you like/dislike about the framework?
 
-* I have used Realm recently. I like its simple APIs and very fast compared to Core Data. It’s also thread-safe so no need to worry about it. Realm has offline first approach yet I can use the object online as well. What I didn’t like about it is that it’s still another dependency which I always try to minimize. 
-* Not like Firebase, there is no free tier for professional edition - only 30 days free trial is available and it doesn’t seem enough to test.
+* I have used Realm recently. I like its simple APIs and very fast compared to Core Data. It’s also thread-safe so no need to worry about it. Realm has offline first approach yet I can use the object online as well. 
+* What I didn’t like about Realm is that it's still another dependency which I always try to minimize.
 
 3. Describe how you would construct a Twitter feed application (here is an example of Udacity's Twitter feed) that at minimum can display a company's Twitter page. Please include information about any classes/structs that you would use in the app. Which classes/structs would be the model(s), the controller(s), and the view(s)?
 
@@ -32,4 +32,4 @@
 
 7. If you were to start your iOS developer position today, what would be your goals a year from now?
 
-* As an urban designer turned iOS developer, I personally believe the app like Dolo could enrich urban culture by encouraging location-based information exchanges anonymously. My goal within a year would be to understand detailed functional and technical requirements for new features with better user experience in order to encourage users to share location-based information. As the app grows fast with extensive active users, spontaneous interactions among users - residents, tourists, and workers - could evoke meaningful communications in unexpected ways. Then, my next goal past one year from now would be to master how to handle the large volume of requests to help accomplish the mission by optimizing performance.
+* As an urban designer turned iOS developer, I personally believe the app like Dolo could enrich urban culture by encouraging location-based information exchanges anonymously. My goal within a year would be to understand detailed functional and technical requirements for new features with better user experience in order to encourage users to share location-based information. As the app grows fast with extensive active users, spontaneous interactions among users - residents, tourists, and workers - could evoke meaningful communications in unexpected ways. Then, my next goal past one year from now would be to master how to handle the large volume of requests to help accomplish the mission by performance tuning.
