@@ -2,12 +2,14 @@
 
 1. What have you learned recently about iOS development? How did you learn it? Has it changed your approach to building apps?
 
-* I have brushed up fundamental iOS development concepts about how iOS apps should be structured. I learned it from an online class with multiple online resources. With a clear understanding of the architecture, I am comfortable with writing performant and clean codes.
-* I have also learned AWS to compare with Firebase for real-time architectures and notifications. I learned it from AWS documentation, some online courses including YouTube channels. As I learn more development tools, I have a better understanding of what technology stack would work better for the app I am working on.
+* I have brushed up fundamental iOS development concepts about how iOS apps should be built including MVC design pattern. 
+* I learned it from online courses, books, and developer documentation. While online courses are good to catch up on up-to-date information quickly, books are better to get in-depth knowledge. If developer documentation is well organized, the documentation is the best resource to learn about specific technical skills. 
+* With a clear understanding of the architecture, I start with overall app structure first while considering new features with functional and detailed technical requirements. As a result, I am able to prevent myself from making unnecessary mistakes.
 
 2. Can you talk about a framework that you've used recently (Apple or third-party)? What did you like/dislike about the framework?
 
-* I have used Realm recently. I like its simple APIs and very fast compared to Core Data. It’s also thread-safe so no need to worry about it. Realm has offline first approach yet I can use the object online as well. What I didn’t like about it is that it’s still another dependency which I always try to minimize. Not like Firebase, there is no free tier for professional edition - only 30 days free trial is available and it doesn’t seem enough to test.
+* I have used Realm recently. I like its simple APIs and very fast compared to Core Data. It’s also thread-safe so no need to worry about it. Realm has offline first approach yet I can use the object online as well. What I didn’t like about it is that it’s still another dependency which I always try to minimize. 
+* Not like Firebase, there is no free tier for professional edition - only 30 days free trial is available and it doesn’t seem enough to test.
 
 3. Describe how you would construct a Twitter feed application (here is an example of Udacity's Twitter feed) that at minimum can display a company's Twitter page. Please include information about any classes/structs that you would use in the app. Which classes/structs would be the model(s), the controller(s), and the view(s)?
 
@@ -26,8 +28,8 @@
 
 6. Imagine that you have been given a project that has this GithubProjectViewController. The GithubProjectViewController should be used to display high-level information about a GitHub project. However, it’s also responsible for finding out if there’s network connectivity, connecting to GitHub, parsing the responses and persisting information to disk. It is also one of the biggest classes in the project. Follow-up question:: How might you improve the design of this view controller?
 
-* The view controller does too many things. I would create separate data source classes for both TableViewDataSource and CollectionViewDataSource. Instead of fetching data in viewDidLoad(), all networking related functions are called in the Classes to fetch data from GitHub. The view controller would be much easier to understand by doing only view related tasks here.
+* The view controller does too many things. I would create separate data source classes for both TableViewDataSource and CollectionViewDataSource. Instead of fetching data in viewDidLoad(), all networking related functions are called in the Classes to fetch data from GitHub. It would be much easier to reason about what the ViewController is doing since it deals with limited numbers of tasks.
 
 7. If you were to start your iOS developer position today, what would be your goals a year from now?
 
-* First of all, I would like to see much more users who love new features I have experimented or prototyped. I would also like to influence decision-making process about all of the features on our product roadmap as well as detailed functional and technical requirements.
+* As an urban designer turned iOS developer, I personally believe the app like Dolo could enrich urban culture by encouraging location-based information exchanges anonymously. My goal within a year would be to understand detailed functional and technical requirements for new features with better user experience in order to encourage users to share location-based information. As the app grows fast with extensive active users, spontaneous interactions among users - residents, tourists, and workers - could evoke meaningful communications in unexpected ways. Then, my next goal past one year from now would be to master how to handle the large volume of requests to help accomplish the mission by optimizing performance.
